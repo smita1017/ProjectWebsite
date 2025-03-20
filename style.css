@@ -13,6 +13,9 @@ body{
   overflow-x: hidden;
 
 }
+a{
+  text-decoration: none;
+}
 .Homepage{
   display: flex;
   align-items: center;
@@ -665,6 +668,9 @@ color: black;
   flex-direction: column;
   width: 100%;
 }
+.Footerimg{
+  object-fit: contain;
+}
       /* ............................................servicepage................................................ */
       .Servicepage {
         flex-direction: column; /* Stack elements vertically */
@@ -930,6 +936,9 @@ color: black;
     }
   
     @media(min-width: 601px) and (max-width:800px) {
+
+
+/* ****************************************home page*************************** */
 
       /* ............................Projectpage............................................... */
       .Projectpage {
