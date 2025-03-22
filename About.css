@@ -5,7 +5,6 @@
 }
 body{
     font-family: "Lato", sans-serif;
-    /* overflow-x: hidden; */
 }
 a{
     text-decoration: none;
@@ -498,6 +497,8 @@ font-style: normal;
     height: 90%;
     width: 90%;
 }
+
+/* ...............................................main....................................................... */
 .Leftmain{
     width: 90%;
     height: 98%;

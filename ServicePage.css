@@ -6,11 +6,77 @@
 }
 body{
     font-family: "Lato", sans-serif;
+
+}
+.Project_Info_section{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
+    width: 100%;
 }
+main{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    width: 90%; 
+}
+.upper_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 30%;
+    width: 65%;
+}
+.Lower_Container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 60%;
+    padding: 1rem;
+}
+.lower_container_item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: 0.5px solid #D2D2D2;
+}
+.firstimg_container{
+    width: 40%;
+    height: 80%;
+}
+.empty{
+    height: 20%;    
+    background-color: white;
+}
+.lower_container_item h1{
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.lower_container_item p{
+font-family: "Lato", sans-serif;
+font-weight: 400;
+    color: #6B6B6B;
+    font-size: 0.9rem;
+}
+.secondimg_container{
+    width: 60%;
+    height: 80%;
+}
+.Imgcontainer{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ......................................navbar.............................................................. */
 .FirstInfoSection_Nav{
     height: 15vh;
     width: 100%;
@@ -69,11 +135,8 @@ width: 33%;
     height: 60%;
 }
 /* ........................................Footer................................................................ */
-.Footer_section{
-    height: 100vh;
-    width: 100%;
-}
 .lowerlastdiv{
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +146,6 @@ width: 33%;
     background-color: black;
     color: white;
     gap: 1.2rem;
-    padding-top: 1rem;
 }
 .getintouchbtn{
     display: flex;
@@ -97,9 +159,9 @@ width: 33%;
 .shortcutlinks{
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     width: 80%;
-
+    gap: 1rem;
 }
 .links{
     display: flex;
@@ -115,90 +177,6 @@ width: 33%;
 hr{
     width: 100%;
     border: 1px solid #2E2E2E ;
-}
-
-/* ....................................maindesigning........................................ */
-.Project_Info_section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
-    /* background-color: red; */
-}
-.Project_Info_section main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 85vh;
-    width: 80%;
-    position: relative;
-
-}
-.Project_Info_section main p{
-    line-height: 1.5rem;
-    font-weight: 400;
-    font-size: 1rem;
-    text-align: left;
-    width: 70%;
-}
-.Project_Info_section main h1{
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 2rem;
-    text-align: start;
-    text-transform: uppercase;
-    width: 70%;
-}
-.Project_Info_section main img{
-    height: 100%;
-    width: 100%;
-}
-.Project_Info_section main div{
-    height: 70%;
-    width: 70%;
-}
-.loadmore{
-    padding: 1rem;
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-
-}
-.loadmore a{
-    font-size: 1.5rem;
-    font-weight: 900;
-
-}
-.InformationContainer{
-background-color: white;
-color: #6B6B6B;
-font-family: "lato",sans-serif;
-font-weight: 400;
-width: 30%;
-height: 65%;
-border: 1px solid #D2D2D2;
-position: absolute;
-left: 10%;
-top: 135%;
-font-size: 0.7rem;
-line-height: 1.9rem;
-padding-left: 2rem;
-padding-top: 1rem;
-}
-.InformationContainer h1{
-    font-size: 1rem;
-    font-weight: 700;
-    color:black;
-font-family: "lato",sans-serif;
-text-transform: uppercase;
-}
-.subheading,h3{
-    color: black;
-    font-weight: 700;
 }
 /* ..........................................@Media 600px.................................................................. */
 @media screen and (max-width:600px) {
@@ -224,41 +202,8 @@ text-transform: uppercase;
         width: 25px;
     }
 
-/* ..................................main...................................... */
-    .Project_Info_section main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 2rem;
-        padding: 3rem;
-        width: 100%;
-    }
-    .Project_Info_section main p{
-        line-height: 1.3rem;
-        font-weight: 400;
-        font-size: 0.7rem;
-        text-align: left;
-        width: 80%;
-    }
-    .Project_Info_section main h1{
-        font-weight: 700;
-        font-size: 1.5rem;
-        line-height: 2rem;
-        text-transform: uppercase;
-        width: 80%;
-    }
-    .Project_Info_section main img{
-        height: 100%;
-        width: 100%;
-    }
-    .Project_Info_section main div{
-        height: 50%;
-        width: 100%;
-    }
- 
-    
-    /* .................................................lastdiv....................................................... */
+
+    /* .................................................footer....................................................... */
 .Lastsection{
     flex-direction: column;
     font-size: 0.6rem;
@@ -280,7 +225,6 @@ text-transform: uppercase;
     max-width: 100%; /* Override any constraints */
     text-align: center;
 }
-
 
 .lastleftsection{
     display: flex;
@@ -306,9 +250,15 @@ line-height: 1.5rem;
 font-style: normal;
 /* background-color: red; */
 }
+.lowerlastdiv p br{
+    display: none;
+}
 .shortcutlinks{
     width: 100%;
     gap: 1rem;
+}
+.links{
+    gap: 0.5rem;
 }
 .getintouchbtn{
     padding: 0.2rem 0.4rem;
@@ -321,7 +271,21 @@ font-style: normal;
 font-size: 0.6rem;
 
 }
-
+/* .........................................................main.......................................................... */
+.Lower_Container{
+    padding-top: 0.4rem;
+    gap: 0.2rem;
+}
+.Lower_Container h1{
+font-size: 0.9rem;
+}
+.lower_container_item h1{
+    font-size: 0.7rem;
+}
+.lower_container_item p{
+    width: 100%;
+    font-size: 0.6rem;
+}
 }
 
 @media screen and (min-width:601px) and (max-width:856px){
